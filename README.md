@@ -2,23 +2,25 @@
 
 These perturbations mimic spatial errors arising in observations or models, where structures (e.g., eddies, vortices) are misplaced or shifted.
 Position errors are particularly critical in ocean dynamics, where the spatial coherence of features affects the analysis and forecasting.
+
 Temporal Coherence:
-
 Errors are often not independent in time. Maintaining time correlations ensures realistic simulation of evolving structures in the field.
-Controlled Randomness:
 
+Controlled Randomness:
 By specifying parameters such as correlation length scales, the randomness in the perturbations can be controlled, balancing spatial smoothness and variability.
 
 
 The new field- so called the perturbed field is obtain by:
-$$\hat u\left( x, t \right)= u \left(x + s_i (t, x), t\right)$$
 
+$$
+\hat u\left( x, t \right)= u \left(x + s_i (t, x), t\right)
+$$
 
 where:
 
 * $u \left(x,t\right)$: Original field
-* s_i(t,x): Displacement field (random but spatially and temporally correlated).
-* x,y : Spatial coordinates.
+* $s_i(t,x)$: Displacement field (random but spatially and temporally correlated).
+* x : Spatial coordinate (a vector).
 * t: Time
 
 Here is an example of perturbed field for stream function 
@@ -38,7 +40,7 @@ Temporal correlations to ensure smooth evolution over time.
 Displacement Application:
 
 * The generated displacement fields are added to the spatial coordinates of the original 
-* New grid$=$Old grid $+$ Displacement field.
+* New grid $=$ Old grid $+$ Displacement field.
 
 Periodic boundary conditions are applied to the displacements to ensure the field wraps correctly at the edges. This avoids artifacts at the boundaries.
 Interpolation:
