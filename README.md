@@ -13,18 +13,18 @@ By specifying parameters such as correlation length scales, the randomness in th
 The new field- so called the perturbed field is obtain by:
 
 $$
-\hat u\left( x, t \right)= u \left(x + s_i (t, x), t\right)
+\hat u\left( \vec{x}, t \right)= u \left(\vec{x} + s_i (t, \vec{x}) , t\right)
 $$
 
 where:
 
 * $u \left(x,t\right)$: Original field
-* $s_i(t,x)$: Displacement field (random but spatially and temporally correlated).
-* x : Spatial coordinate (a vector).
+* $s_i(t,\vec{x})$: Displacement field (random but spatially and temporally correlated).
+* \vec{x} : Spatial coordinate vector.
 * t: Time
 
 Here is an example of perturbed field for stream function 
-![Perturbed Field Example](sf-translated-ptb.png)
+![Perturbed Field Example](vorticity-ptb.png)
 
 To do this, 
 
