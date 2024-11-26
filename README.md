@@ -19,8 +19,8 @@ $$
 where:
 
 * $u \left(x,t\right)$: Original field
-* $s_i(t,x)$: Displacement field (random but spatially and temporally correlated).
-* x : Spatial coordinate (a vector).
+* $s_i(t,\vec{x})$: Displacement field (random but spatially and temporally correlated).
+* \vec{x} : Spatial coordinate (a vector).
 * t: Time
 
 Here is an example of perturbed field for stream function 
