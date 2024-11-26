@@ -20,8 +20,8 @@ where:
 
 * $u \left(x,t\right)$: Original field
 * $s_i(t,x)$: Displacement field (random but spatially and temporally correlated).
-* x : Spatial coordinate (a vector).
-* t: Time
+* $x $: Spatial coordinate (a vector).
+* $t$: Time
 
 Here is an example of perturbed field for vorticity 
 ![Perturbed Field Example](vorticity-ptb.png)
