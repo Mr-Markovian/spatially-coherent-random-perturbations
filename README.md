@@ -23,8 +23,8 @@ where:
 * x : Spatial coordinate (a vector).
 * t: Time
 
-Here is an example of perturbed field for stream function 
-![Perturbed Field Example](sf-translated-ptb.png)
+Here is an example of perturbed field for vorticity 
+![Perturbed Field Example](vorticity-ptb.png)
 
 To do this, 
 
