@@ -20,11 +20,11 @@ where:
 
 * $u \left(x,t\right)$: Original field
 * $s_i(t,\vec{x})$: Displacement field (random but spatially and temporally correlated).
-* \vec{x} : Spatial coordinate (a vector).
+* $\vec{x}$ : Spatial coordinate (a vector).
 * t: Time
 
 Here is an example of perturbed field for stream function 
-![Perturbed Field Example](sf-translated-ptb.png)
+![Perturbed Field Example](vorticity-ptb.png)
 
 To do this, 
 
