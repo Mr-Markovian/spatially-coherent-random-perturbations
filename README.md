@@ -23,7 +23,7 @@ where:
 * $\vec{x}$ : Spatial coordinate (a vector).
 * t: Time
 
-Here is an example of perturbed field for stream function 
+Here is an example of perturbed field for vorticity 
 ![Perturbed Field Example](vorticity-ptb.png)
 
 To do this, 
@@ -41,6 +41,9 @@ Displacement Application:
 
 * The generated displacement fields are added to the spatial coordinates of the original 
 * New grid $=$ Old grid $+$ Displacement field.
+
+The figure below shows a similar operation, but applied to the stream functions instead:
+![Perturbed Field Example](vorticity-ptb.png)
 
 Periodic boundary conditions are applied to the displacements to ensure the field wraps correctly at the edges. This avoids artifacts at the boundaries.
 Interpolation:
