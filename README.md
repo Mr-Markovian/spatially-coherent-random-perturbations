@@ -43,7 +43,8 @@ Displacement Application:
 * New grid $=$ Old grid $+$ Displacement field.
 
 The figure below shows a similar operation, but applied to the stream functions instead:
-![Perturbed Field Example](vorticity-ptb.png)
+![Perturbed Field Example](sf-
+translated-ptb.png)
 
 Periodic boundary conditions are applied to the displacements to ensure the field wraps correctly at the edges. This avoids artifacts at the boundaries.
 Interpolation:
